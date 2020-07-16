@@ -22,3 +22,39 @@
 
   http://www.imparareaprogrammare.it
 */
+console.log(`SETTIMANA:
+1. Lunedi
+2. Martedì
+3. Mercoledi
+4. Giovedi
+5. Venerdi
+6. Sabato
+7. Domenica`);
+
+var day = "12"
+
+switch (day) {
+  case "1":
+    console.log("Lunedi");
+    break;
+  case "2":
+    console.log("Martedi");
+    break;
+  case "3":
+    console.log("Mercoledi");
+    break;
+  case "4":
+    console.log("Giovedi");
+    break;
+  case "5":
+    console.log("Venerdi");
+    break;
+  case "6":
+    console.log("Sabato");
+    break;
+  case "7":
+    console.log("Domenica");
+    break;
+  default:
+    console.log(`Spiacenti, Giorno della settimana non valido!`);
+}

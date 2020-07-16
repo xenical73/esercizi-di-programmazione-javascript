@@ -11,3 +11,17 @@
 
   http://www.imparareaprogrammare.it
 */
+var num = 6485546546
+num=num.toString()
+
+if (num.length == 1) {
+  console.log(`Il numero ha 1 cifra`);
+}else if (num.length == 2) {
+  console.log(`Il numero ha 2 cifre`);
+}else if (num.length == 3) {
+  console.log(`Il numero ha 3 cifre`);
+}else if (num.length == 4) {
+  console.log(`Il numero ha 4 cifre`);
+}else {
+  console.log(`Il numero e troppo grande`);
+}

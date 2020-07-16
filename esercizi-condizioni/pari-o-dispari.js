@@ -10,8 +10,14 @@
     Output: 0
 
   Consigli:
-  Per capire se un numero è pari o dispari puoi usare un operatore, ma quale? :) 
+  Per capire se un numero è pari o dispari puoi usare un operatore, ma quale? :)
   (Se non ti ricordi riguarda la lezione "Come dichiarare e definire le variabili e i tipi di dato" oppure "Il tipo Numero e gli operatori aritmetici")
 
   http://www.imparareaprogrammare.it
 */
+var number = 24
+
+if (number%2)
+  console.log(`1 = Numero dispari`);
+else
+  console.log(`0 = Numero pari`);
