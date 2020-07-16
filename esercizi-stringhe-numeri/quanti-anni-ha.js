@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var an = 1991;
+var ac = 2018;
+
+eta = (ac-an)
+console.log(`Eta´:`+ eta);
+console.log(`Anni mancanti:`+ (100 - eta));

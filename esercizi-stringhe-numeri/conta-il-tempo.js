@@ -12,3 +12,11 @@
 
   http://www.imparareaprogrammare.it
 */
+const secTot = 12560;
+o = secTot/3600;
+ore = Math.round(o);
+m = (o - ore);
+minuti = Math.round(m * 60);
+s = ((m  * 60)  - minuti);
+secondi = Math.round(s * 60);
+console.log(ore + ` Ore, ` + minuti + ` Minuti e ` + secondi + ` Secondi`);

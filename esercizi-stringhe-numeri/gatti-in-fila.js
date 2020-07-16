@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+const inLine = 6;
+var cats = 44;
+numLine = Math.ceil(cats / inLine);
+missing = ((inLine * numLine) - cats);
+console.log(`Numero di file = ${numLine} - Gatti mancanti = ${missing}`);
