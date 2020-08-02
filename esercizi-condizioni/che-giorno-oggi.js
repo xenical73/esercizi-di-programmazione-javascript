@@ -31,7 +31,7 @@ console.log(`SETTIMANA:
 6. Sabato
 7. Domenica`);
 
-var day = "12"
+var day = "7"
 
 switch (day) {
   case "1":

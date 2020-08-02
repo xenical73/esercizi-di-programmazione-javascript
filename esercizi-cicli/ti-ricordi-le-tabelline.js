@@ -8,3 +8,11 @@
 
   http://www.imparareaprogrammare.it
 */
+`use strict`
+let n = 7
+let i 
+let tabellina= ``;
+for (i=0; i<=10; i++ ){
+  tabellina += ` ` + (n*i);
+}
+console.log(`${tabellina}` );

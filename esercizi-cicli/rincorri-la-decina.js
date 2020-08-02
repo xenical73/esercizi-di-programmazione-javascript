@@ -19,3 +19,11 @@
 
   http://www.imparareaprogrammare.it
 */
+`use restrict`
+let i;
+let tabella=``;
+for (i=1; i<=100; i++){
+  tabella += i + ' ';
+		if(i % 10 == 0) tabella += '\n';
+}
+console.log(`${tabella}`);

@@ -22,7 +22,7 @@
 var player1 = 15;
 var player2 = 67;
 var random = Math.random()*(100-1)+1;
-random = Math.floor(random)
+random = Math.floor(random);
 difPlayer1=Math.abs(player1-random); //Calcola la differenza in termini assoluti 6
 difPlayer2=Math.abs(player2-random);
 console.log(`Numero casuale generato = ${random}`);
