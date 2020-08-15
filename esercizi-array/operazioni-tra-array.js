@@ -19,3 +19,37 @@
 
   http://www.imparareaprogrammare.it
 */
+`use strict`
+let arrayRandom1 = [];
+let N = 10
+for (let i=0; i<N; i++){
+    arrayRandom1[i] = Math.round(Math.random()*10+1);
+};
+let arrayRandom2 = [];
+for (let j=0; j<N; j++){
+    arrayRandom2[j] = Math.round(Math.random()*10+1);
+};
+//Addizione
+let resultsA = arrayRandom1.map (function (number, index){
+  return number + arrayRandom2[index];
+}); 
+console.log(`arrayRandom1 = ${arrayRandom1}; arrayRandom2 = ${arrayRandom2}; L\´ operazione e´= Addizione`);
+console.log(resultsA);
+//Sottrazione
+let resultsS = arrayRandom1.map (function (number, index){
+  return number - arrayRandom2[index];
+}); 
+console.log(`arrayRandom1 = ${arrayRandom1}; arrayRandom2 = ${arrayRandom2}; L\´ operazione e´= Sottrazione`);
+console.log(resultsS);
+//Moltiplicazione
+let resultsX = arrayRandom1.map (function (number, index){
+  return number * arrayRandom2[index];
+}); 
+console.log(`arrayRandom1 = ${arrayRandom1}; arrayRandom2 = ${arrayRandom2}; L\´ operazione e´= Moltiplicazione`);
+console.log(resultsX);
+//Divisione
+let resultsD = arrayRandom1.map (function (number, index){
+  return number / arrayRandom2[index];
+}); 
+console.log(`arrayRandom1 = ${arrayRandom1}; arrayRandom2 = ${arrayRandom2}; L\´ operazione e´= Divisione`);
+console.log(resultsD);

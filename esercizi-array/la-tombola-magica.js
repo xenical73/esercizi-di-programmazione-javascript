@@ -19,3 +19,36 @@
 
   http://www.imparareaprogrammare.it
 */
+`use strict`
+let numbersRandom = [];
+let N = 10;
+let counter = 0
+for (let i=0; i<N; i++){
+  numbersRandom[i] = Math.round(Math.random()*90+1);
+};
+let numbersPersonal = [4, 18, 29, 35, 49, 56, 67, 78, 83, 89];
+let results = numbersPersonal.filter (value => numbersRandom.includes(value));
+console.log(`I numeri estratti sono ${numbersRandom};`);
+console.log(`I miei numeri sono ${numbersPersonal};`);
+console.log(results); 
+for (let j = 0; j<results.length; j++){
+    counter += 1
+};
+if (counter === 2){
+  console.log(`Complimenti hai fatto Ambo`);
+}
+else if (counter === 3){
+  console.log(`Complimenti hai fatto Terno`);
+}
+else if (counter === 4){
+  console.log(`Complimenti hai fatto Quaterna`);
+}
+else if (counter === 5){
+  console.log(`Complimenti hai fatto Cinquina`);
+}
+else if (counter === N){
+  console.log(`Complimenti hai fatto Tombola`);
+}
+else if (counter === 0 || 1){
+  console.log(`Mi spiace, hai perso!`);
+};

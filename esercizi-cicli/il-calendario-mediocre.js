@@ -45,3 +45,43 @@
 
   http://www.imparareaprogrammare.it
 */
+`use strict`
+let calendar = [];
+calendar [0] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+calendar [1] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28];
+calendar [2] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+calendar [3] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+calendar [4] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+calendar [5] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+calendar [6] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+calendar [7] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+calendar [8] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+calendar [9] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+calendar [10] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+calendar [11] = [1, 2, 3, 4 ,5, 6, 7, 8 ,9, 10, 11, 12, 13, 14, 15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+let months = `Novembre`;
+if (months === `Gennaio`){
+  console.log(`Il mese di Gennaio ha ` + calendar[0][30] + ` giorni`);
+} else if (months === `Febbraio`){
+  console.log(`Il mese di Febbraio ha ` + calendar[1][27] + ` giorni`);
+} else if (months === `Marzo`){
+  console.log(`Il mese di Marzo ha ` + calendar[2][30] + ` giorni`);
+} else if (months === `Aprile`){
+  console.log(`Il mese di Aprile ha ` + calendar[3][29] + ` giorni`);
+} else if (months === `Maggio`){
+  console.log(`Il mese di Maggio ha ` + calendar[4][30] + ` giorni`);
+} else if (months === `Giugno`){
+  console.log(`Il mese di Giugno ha ` + calendar[5][29] + ` giorni`);
+} else if (months === `Luglio`){
+  console.log(`Il mese di Luglio ha ` + calendar[6][30] + ` giorni`);
+} else if (months === `Agosto`){
+  console.log(`Il mese di Agosto ha ` + calendar[7][30] + ` giorni`);
+} else if (months === `Settembre`){
+  console.log(`Il mese di Settembre ha ` + calendar[8][29] + ` giorni`);
+} else if (months === `Ottobre`){
+  console.log(`Il mese di Ottobre ha ` + calendar[9][30] + ` giorni`);
+} else if (months === `Novembre`){
+  console.log(`Il mese di Novembre ha ` + calendar[10][29] + ` giorni`);
+} else if (months === `Febbraio`){
+  console.log(`Il mese di Dicembre ha ` + calendar[11][30] + ` giorni`);
+};

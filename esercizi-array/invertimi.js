@@ -15,3 +15,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+`use strict`
+let numbers = [];
+let N = Math.round(Math.random()*20);
+for (let i=0; i<N; i++){
+  numbers[i] = Math.round(Math.random()*100);
+};
+console.log(numbers);
+let reversed = numbers.reverse();
+console.log(reversed);
